@@ -1,7 +1,5 @@
 # GPi Case 2 + Raspberry Pi CM4 (2GB Lite) — Retro Handheld
 
-![demo](docs/images/hero.jpg)
-
 [![status](https://img.shields.io/badge/status-working-brightgreen)](#)
 [![os](https://img.shields.io/badge/OS-Recalbox%2064--bit-blue)](#)
 [![hardware](https://img.shields.io/badge/Hardware-CM4%202GB%20Lite%20%2B%20GPi%20Case%202-lightgrey)](#)
@@ -13,7 +11,6 @@ Este repo documenta el proyecto **de principio a fin**, incluidas las decisiones
 ---
 
 ## Demo
-- Vídeo corto: _añade enlace o gif aquí_
 - Capturas: en [`docs/images`](docs/images)
 
 ---
@@ -35,7 +32,6 @@ Construir una portátil **limpia y reproducible** que emule hasta **GBA** y deja
 | **Raspberry Pi CM4 Lite (2GB, Wi-Fi)**| Sin eMMC (arranca por microSD)     | 60–100            |
 | microSD **64 GB A1** (SanDisk/Samsung)| Sistema + ROMs                     | 9–20              |
 | Lector microSD USB-C                  | Para grabar la SD                  | 6–12              |
-| Disipador adhesivo (opcional)         | Para el CM4                        | 2–5               |
 
 > ⚠️ No se distribuyen **ROMs/BIOS**.
 
