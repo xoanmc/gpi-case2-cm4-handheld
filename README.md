@@ -3,7 +3,6 @@
 [![status](https://img.shields.io/badge/status-working-brightgreen)](#)
 [![os](https://img.shields.io/badge/OS-Recalbox%2064--bit-blue)](#)
 [![hardware](https://img.shields.io/badge/Hardware-CM4%202GB%20Lite%20%2B%20GPi%20Case%202-lightgrey)](#)
-[![license](https://img.shields.io/badge/license-MIT-black)](LICENSE)
 
 Consola portátil basada en **RetroFlag GPi Case 2 Deluxe** + **Raspberry Pi CM4 (Lite)**.
 Este repo documenta el proyecto **de principio a fin**, incluidas las decisiones y los problemas reales que aparecieron, para que cualquiera pueda replicarlo en menos de una hora.
