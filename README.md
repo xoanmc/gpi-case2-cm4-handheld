@@ -55,16 +55,15 @@ Construir una portátil **limpia y reproducible** que emule hasta **GBA** y deja
 - **CM4 Lite** (sin eMMC): garantiza arranque por **microSD**, evita tener que flashear eMMC.
 - **Validación con Raspberry Pi OS**: sirvió para separar **hardware** de **configuración** (si sale vídeo en HDMI, el módulo y la SD están bien).
 
-Diagrama rápido:
+## Diagrama rápido de diagnóstico
 
 ```mermaid
 flowchart TD
-  A[Montaje CM4 + microSD] --> B{Arranca?}
+  A[Montaje CM4 + microSD] --> B{Arranca}
   B -- HDMI OK --> C[Recalbox rpi4_64]
-  C --> D{LCD funciona?}
-  D -- Sí --> E[Configurar y jugar]
-  D -- No --> F[Display patch RetroFlag]
-  B -- No --> G[Raspberry Pi OS 64-bit]
-  G -- HDMI OK --> H[Problema de config en SO anterior]
-  G -- No --> I[Revisar SD/ranura/CM4 (contacto)]
-
+  C --> D{LCD funciona}
+  D -- Si --> E[Configurar y jugar]
+  D -- No --> F[Aplicar display patch RetroFlag]
+  B -- No --> G[Probar Raspberry Pi OS 64-bit]
+  G -- HDMI OK --> H[Revisar configuracion del SO anterior]
+  G -- No --> I[Revisar SD o ranura CM4 contacto]
