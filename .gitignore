@@ -1,0 +1,10 @@
+# Evitar material sensible o pesado
+roms/
+bios/
+*.img
+*.img.gz
+*.xz
+*.zip
+*.7z
+.DS_Store
+Thumbs.db
